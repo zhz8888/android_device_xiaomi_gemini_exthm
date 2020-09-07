@@ -1,0 +1,5 @@
+allow bootanim theme_data_file:dir search;
+allow bootanim theme_data_file:file r_file_perms;
+
+# Read persist.sys.theme
+get_prop(bootanim, theme_prop)
